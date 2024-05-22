@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="21dp"
+        android:text="Number :"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E" />
+
+    <EditText
+        android:id="@+id/f"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:ems="15"
+        android:hint="1234"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/bLabel"
+        android:layout_width="102dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="223dp"
+        android:text="Binary :"
+        android:textAlignment="center"
+        android:textColor="#121010" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="169dp"
+        android:text="Decimal :"
+        android:textAlignment="center"
+        android:textColor="#171616" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="96dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="116dp"
+        android:text="Octal :"
+        android:textAlignment="center"
+        android:textColor="#151414" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="52dp"
+        android:text="Hexa :"
+        android:textAlignment="center"
+        android:textColor="#151414" />
+
+    <TextView
+        android:id="@+id/bans"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="227dp" />
+
+    <TextView
+        android:id="@+id/dans"
+        android:layout_width="174dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="171dp" />
+
+    <TextView
+        android:id="@+id/oans"
+        android:layout_width="169dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="116dp" />
+
+    <TextView
+        android:id="@+id/hans"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="55dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="387dp"
+        android:layout_height="6dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="321dp"
+        android:foreground="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="89dp"
+        android:text="Current System :"
+        android:textColor="#2B2424" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="121dp"
+        android:baselineAligned="false">
+
+        <RadioButton
+            android:id="@+id/binary"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+
+            android:checked="false"
+            android:text="Binary"
+            android:textAlignment="center"
+            android:textColor="#040303" />
+
+        <RadioButton
+            android:id="@+id/Decimal"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+
+            android:checked="true"
+            android:text="Decimal"
+            android:textColor="#121111" />
+
+        <RadioButton
+            android:id="@+id/Octal"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+
+            android:text="Octal"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/Hexa"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+
+            android:minHeight="48dp"
+            android:text="Hexa" />
+
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="label" type="id" />
+    <item name="f" type="id" />
+    <item name="binary" type="id" />
+    <item name="Decimal" type="id" />
+    <item name="Octal" type="id" />
+    <item name="Hexa" type="id" />
+    <item name="bLabel" type="id" />
+    <item name="textView3" type="id" />
+    <item name="textView4" type="id" />
+    <item name="textView5" type="id" />
+    <item name="bans" type="id" />
+    <item name="dans" type="id" />
+    <item name="oans" type="id" />
+    <item name="hans" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="textView10" type="id" />
+</resources>
